@@ -1,0 +1,5 @@
+<div class="grid grid-cols-7 min-w-[1400px]">
+    @for (day of fullCalendar(); track $index) {
+        <app-day-container [day]="day"></app-day-container>
+    }
+</div>
